@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA5B67A22010EB7800CFB075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B67A12010EB7800CFB075 /* main.m */; };
+		AA5B67AA2010EB9B00CFB075 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B67A92010EB9B00CFB075 /* Person.m */; };
+		AA5B67AD2010EFB300CFB075 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B67AC2010EFB300CFB075 /* Child.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		AA5B679E2010EB7800CFB075 /* Properties */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Properties; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5B67A12010EB7800CFB075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5B67A82010EB9B00CFB075 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AA5B67A92010EB9B00CFB075 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AA5B67AB2010EFB300CFB075 /* Child.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		AA5B67AC2010EFB300CFB075 /* Child.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				AA5B67A12010EB7800CFB075 /* main.m */,
+				AA5B67A82010EB9B00CFB075 /* Person.h */,
+				AA5B67A92010EB9B00CFB075 /* Person.m */,
+				AA5B67AB2010EFB300CFB075 /* Child.h */,
+				AA5B67AC2010EFB300CFB075 /* Child.m */,
 			);
 			path = Properties;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5B67AD2010EFB300CFB075 /* Child.m in Sources */,
+				AA5B67AA2010EB9B00CFB075 /* Person.m in Sources */,
 				AA5B67A22010EB7800CFB075 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
